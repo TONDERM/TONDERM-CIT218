@@ -1,0 +1,19 @@
+﻿@{
+    ViewBag.Title = "Home";
+}
+<h1>Home</h1>
+<div class="list-group">
+
+    <a asp-controller="Product" asp-action="Detail"
+       asp-route-id="Fender-Stratocaster"  class="list-group-item  list-group-item-action">
+        View Fender Stratocaster
+    </a>
+
+    <a asp-controller="Product" asp-action="List"  class="list-group-item  list-group-item-action">
+        View Products
+    </a>
+
+    <a asp-controller="Home" asp-action="About"  class="list-group-item  list-group-item-action">
+        About Us
+    </a>
+</div>
